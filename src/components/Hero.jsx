@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="bg-gradient-to-r from-slate-900 to-slate-950 py-8 md:py-14 text-2xl text-white font-mono ">
         <div className="w-[80vw] md:w-[70vw] mx-auto">
-        <p className="mb-4 text-2xl md:text-3xl">Hi! I am <span className="font-thin mb-4 text-2xl md:text-3xl underline underline-offset-4 hover:underline-offset-8 duration-150">Ali Aais</span><span className="animate-pulse"> 👋 </span> </p>
+        <p className="mb-4 text-2xl md:text-3xl">Hi! I am <span className="font-thin mb-4 text-2xl md:text-3xl underline underline-offset-4 hover:underline-offset-8 duration-150">Ali Aais</span><span className="animate-pulse text-4xl"> 👋 </span> </p>
         <div className="text-xl md:text-3xl mt-5 mb-5">I am a Front End Developer that has passion to learn and build stuff. I also want to explore the world of IOT. Also I love Cats 😁🐈</div>
         <div className="font-thin mt-5 hover:bg-gra">
             <h1 className="text-xl md:text-2xl my-10 font-thin hover:underline underline-offset-4">Projects I have Built</h1>
