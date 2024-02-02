@@ -4,7 +4,7 @@ import Bubbles from "../assets/bubbles.jpg"
 
 const Hero = () => {
   return (
-    <div className="bg-[#011627] py-8 md:py-14 text-2xl text-white font-mono ">
+    <div className="bg-gradient-to-r from-slate-900 to-slate-950 py-8 md:py-14 text-2xl text-white font-mono ">
         <div className="w-[80vw] md:w-[70vw] mx-auto">
         <p className="mb-4 text-2xl md:text-3xl">Hi! I am <span className="font-thin mb-4 text-2xl md:text-3xl underline underline-offset-4 hover:underline-offset-8 duration-150">Ali Aais</span><span className="animate-pulse"> 👋 </span> </p>
         <div className="text-xl md:text-3xl mt-5 mb-5">I am a Front End Developer that has passion to learn and build stuff. I also want to explore the world of IOT. Also I love Cats 😁🐈</div>
