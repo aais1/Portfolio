@@ -1,4 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
+import Project from "./Project";
 
 const Hero = () => {
   return (
@@ -20,66 +21,41 @@ const Hero = () => {
             Projects I have Built
           </h1>
 
-          <div className="w-[100%] hover:bg-gray-700 bg-gray-800  p-4 mt-5">
-            <a
-              href="https://ecommerce-aais.vercel.app"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h1 className="text-2xl mb-3">Ecommerce Site</h1>
-              <div className="text-xl">
-                Used <span className="font-bold">React JS</span> for the
-                Front-End, <span className="font-bold">Redux Toolkit</span> for
-                State Management and{" "}
-                <span className="font-bold">fakeapi.platzi Api</span> for
-                products
-              </div>
-            </a>
-          </div>
+          <Project url="https://linkedin-clone-silk-nine.vercel.app/" name="Linkedin Clone"
+             techstack={{
+              frontend:"React JS",
+              backend:"Firebase",
+              database:"Firestore",
+              other:"Redux for State Management"
+            }} />
 
-          <div className="w-[100%] hover:bg-gray-700 bg-gray-800  p-4 mt-5">
-            <a
-              href="https://github.com/aais1/blog"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h1 className="text-2xl mb-3">Blog App</h1>
-              <div className="text-xl">
-                Used <span className="font-bold">React JS</span> for the
-                Front-End , <span className="font-bold">Express</span> for
-                Backend <span className="font-bold">MongoDB</span> for Database
-              </div>
-            </a>
-          </div>
+            <Project url="https://ecommerce-liard-beta.vercel.app/" name="Ecommerce Site"
+             techstack={{
+              frontend:"React JS",
+              backend:"Node and Express",
+              database:"MongoDB",
+              api:"fakeapi.platzi",
+              other:"Redux Toolkit for State Management"
+            }} />
 
-          <div className="w-[100%] hover:bg-gray-700 bg-gray-800  p-4 mt-5">
-            <a
-              href="https://recipe-app-aais.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h1 className="text-2xl mb-3">Recipe App</h1>
-              <div className="text-xl">
-                Used{" "}
-                <span className="font-bold">
-                  React JS and themealdb Api for recipes
-                </span>
-              </div>
-            </a>
-          </div>
+            <Project url="https://github.com/aais1/blog" name="Blog App"
+             techstack={{
+              frontend:"React JS",
+              backend:"Node and Express",
+              database:"MongoDB" 
+            }} />
 
-          <div className="w-[100%] hover:bg-gray-700 bg-gray-800  p-4 mt-5">
-            <a
-              href="https://aais1.github.io/Quiz-Game/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h1 className="text-2xl mb-3">Quiz Game</h1>
-              <div className="text-xl">
-                Used <span className="font-bold">HTMl CSS & JS</span>
-              </div>
-            </a>
-          </div>
+            <Project url="https://recipe-app-aais.vercel.app/" name="Recipe App"
+             techstack={{
+            frontend:"React JS",
+            api:"themealdb"
+            }} />
+
+            <Project url="https://aais1.github.io/Quiz-Game/" name="Quiz Game"
+             techstack={{
+              other:"HTMl CSS & JS"
+            }} />
+          
         </div>
 
         <h1 className="mt-14 mb-2 border-t pt-8">Find Me Here </h1>
