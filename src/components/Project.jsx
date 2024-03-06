@@ -2,10 +2,10 @@ import React from "react";
 
 const Project = ({ url, name, techstack }) => {
   return (
-    <div className="w-[100%] hover:bg-gray-700 bg-gray-800  p-4 mt-5">
+    <div className="w-[100%] hover:bg-gray-700 bg-gray-800  p-2 md:p-4 mt-5">
       <a href={url} target="_blank" rel="noreferrer">
-        <h1 className="text-2xl mb-3">{name}</h1>
-        <div className="text-xl">
+        <h1 className="text-xl md:text-2xl mb-3">{name}</h1>
+        <div className="text-[17px] md:text-xl">
           {techstack.frontend ? (
             <span className="font-bold">
               {techstack.frontend}{" "}

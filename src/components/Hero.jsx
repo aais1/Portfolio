@@ -1,23 +1,31 @@
 /* eslint-disable react/jsx-no-target-blank */
 import Project from "./Project";
+import './WavingHand.css'
+import TechStack from "./TechStack";
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-r from-slate-900 to-slate-950 py-8 md:py-14 text-2xl text-white font-mono ">
-      <div className="w-[80vw] md:w-[70vw] mx-auto">
+    <div className="bg-gradient-to-r overflow-hidden from-slate-900 to-slate-950 py-8 md:py-10 lg:py-12 text-2xl text-white font-mono ">
+      <div className="w-[95vw] md:w-[90vw] lg:w-[85vw] mx-auto">
         <p className="mb-4 text-2xl md:text-3xl">
           Hi! I am{" "}
           <span className="font-thin mb-4 text-2xl md:text-3xl underline underline-offset-4 hover:underline-offset-8 duration-150">
             Ali Aais
           </span>
-          <span className="animate-pulse text-4xl"> 👋 </span>{" "}
+          <span className="animate-wave text-4xl"> 👋 </span>{" "}
         </p>
         <div className="text-xl md:text-3xl mt-5 mb-5">
           I am a Front End Developer that has passion to learn and build stuff.
           I also want to explore the world of IOT. Also I love Cats 😁🐈
         </div>
-        <div className="font-thin mt-5 hover:bg-gra">
-          <h1 className="text-xl md:text-2xl my-10 font-thin hover:underline underline-offset-4">
+        <div>
+          <h1 className="border-t pt-8 text-2xl md:text-3xl my-4 font-bold">
+            Tools and Technologies
+          </h1>
+          <TechStack/>
+        </div>
+        <div className="font-thin mt-5 ">
+          <h1 className=" border-t pt-8 text-2xl md:text-3xl my-10 font-bold">
             Projects I have Built
           </h1>
 
@@ -59,8 +67,8 @@ const Hero = () => {
         </div>
 
         <h1 className="mt-14 mb-2 border-t pt-8">Find Me Here </h1>
-        <div className="flex items-center gap-x-2">
-          <a href="https://www.instagram.com/ali_.aais/" target="_blank">
+        <div className="flex items-center gap-x-2 ">
+          <a href="https://www.instagram.com/ali_.aais/" className="rounded-md hover:bg-white duration-100" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -76,6 +84,7 @@ const Hero = () => {
           <a
             href="https://pk.linkedin.com/in/ali-aais-b55857266"
             target="_blank"
+            className="rounded-md hover:bg-white duration-100"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +98,7 @@ const Hero = () => {
             </svg>
           </a>
 
-          <a href="https://github.com/aais1" target="_blank">
+          <a href="https://github.com/aais1" target="_blank" className="rounded-md hover:bg-white duration-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
