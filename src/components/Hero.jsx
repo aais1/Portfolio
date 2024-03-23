@@ -40,8 +40,6 @@ const Hero = () => {
             <Project url="https://ecommerce-liard-beta.vercel.app/" name="Ecommerce Site"
              techstack={{
               frontend:"React JS",
-              backend:"Node and Express",
-              database:"MongoDB",
               api:"fakeapi.platzi",
               other:"Redux Toolkit for State Management"
             }} />
