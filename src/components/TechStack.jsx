@@ -19,46 +19,46 @@ const TechStack = () => {
     <div className=''>
     <div className=' mx-auto grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 items-center place-items-center gap-4 '>
     <div className='w-[60px]   cursor-pointer hover:scale-110 duration-150 '>
-        <img src={reacticon} className='scale-125' alt="REACT" />
+        <img src={reacticon} className='scale-125' title="React" alt="REACT" />
     </div>
     <div className='w-[60px] cursor-pointer hover:scale-110 duration-150'>
-        <img src={reduxicon} className='scale-125' alt="REDUX" />
+        <img src={reduxicon} className='scale-125' title="Redux Toolkit" alt="REDUX" />
     </div>
     <div className='w-[60px] md:w-[80px] cursor-pointer hover:scale-110 duration-150'>
-        <img src={tailwindicon} className='scale-110 ' alt="tailwind" />
+        <img src={tailwindicon} className='scale-110 ' title="Tailwind CSS" alt="tailwind" />
     </div>
     <div className='w-[60px] md:w-[80px] cursor-pointer hover:scale-110 duration-150'>
-        <img src={jsicon} alt="Javascript" />
+        <img src={jsicon} title="Javascript" alt="Javascript" />
     </div>
     <div className='w-[60px] md:w-[80px] cursor-pointer hover:scale-110 duration-150'>
-        <img src={giticon} alt="Git" />
+        <img src={giticon} title="Git" alt="Git" />
     </div>
     <div className='w-[60px] md:w-[80px] cursor-pointer hover:scale-110 duration-150'>
-        <img src={bootstrapicon} alt="Bootstrap" />
+        <img src={bootstrapicon} title="Bootstrap" alt="Bootstrap" />
     </div>
     <div className='w-[60px] md:w-[80px] cursor-pointer hover:scale-110 duration-150'>
-        <img src={firebaseicon} alt="Firebase" />
+        <img src={firebaseicon} title="Firebase" alt="Firebase" />
     </div>
     <div className='w-[60px] md:w-[80px] cursor-pointer hover:scale-110 duration-150'>
-        <img src={cssicon} alt="CSS" />
+        <img src={cssicon} title="CSS" alt="CSS" />
     </div>
     <div className='w-[60px] md:w-[80px] cursor-pointer hover:scale-110 duration-150'>
-        <img src={htmlicon} alt="Html" />
+        <img src={htmlicon} title="HTML5" alt="Html" />
     </div>
     <div className='w-[60px] md:w-[80px] cursor-pointer hover:scale-110 duration-150'>
-        <img src={githubicon} className='scale-125 md:scale-150' alt="Github" />
+        <img src={githubicon} title="Github" className='scale-125 md:scale-150' alt="Github" />
     </div>
     <div className='w-[60px] md:w-[80px] cursor-pointer hover:scale-110 duration-150'>
-        <img src={vscodeicon}  alt="VsCode" />
+        <img src={vscodeicon} title="VSCode"  alt="VsCode" />
     </div>
     <div className='w-[60px] md:w-[80px] cursor-pointer hover:scale-110 duration-150'>
-        <img src={mongodbicon} className='scale-50'  alt="MongoDB" />
+        <img src={mongodbicon} title="MongoDB" className='scale-50'  alt="MongoDB" />
     </div>
     <div className='w-[60px] md:w-[80px] cursor-pointer hover:scale-110 duration-150'>
-        <img src={express} className='scale-125' alt="ExpressJS" />
+        <img src={express} title="Express JS" className='scale-125' alt="ExpressJS" />
     </div>
     <div className='w-[60px] md:w-[80px] cursor-pointer hover:scale-110 duration-150'>
-        <img src={nodeicon} alt="NodeJS" />
+        <img src={nodeicon} title="Node JS" alt="NodeJS" />
     </div>
     </div>
     </div>
